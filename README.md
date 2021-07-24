@@ -6,7 +6,7 @@ implementations in a `java/`).
 
 
 # Table of Contents
-1. [Proxy Pattern](#proxy_pattern)
+1. [Proxy Pattern](#proxy-pattern)
 
 ---
 
