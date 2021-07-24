@@ -1,3 +1,9 @@
+# MacOS files
+.DS_Store
+
+# Jetbrains environment files
+.idea/
+
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[cod]
