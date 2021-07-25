@@ -1,8 +1,8 @@
 # design_patterns
 A repo to contain code where I practice implementing software design patterns.
-My practice started in python with the `python/` folder. Any additional languages over 
-time will be in additional folders following the same naming convention (ex: Java 
-implementations in a `java/`).
+My practice started in python with the `python/` folder. Any additional languages will 
+get their own dedicated folder following the same naming convention (ex: Java examples in the
+directory `java/`).
 
 
 # Table of Contents
@@ -34,5 +34,7 @@ implementations in a `java/`).
   
 ###### Example Code
 * Implemented in python:
-    * Code in `python/src/proxy_pattern`
+    * Toy example in `python/src/proxy_pattern`
+* Implemented in Java:
+    * Toy example in `java/src/proxy_pattern`
 
