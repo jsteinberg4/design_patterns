@@ -22,8 +22,8 @@ public class SimpleProxy extends DatabaseProxy {
     System.out.println("Doing some upfront checking with a proxy before passing request to the "
         + "database.");
     int found_entry = this.proxied_service.findEntry(id);
-    System.out.println("Proxied database found a row. Returning value...");
 
+    System.out.println("Proxied database found a row. Returning value...");
     return found_entry;
   }
 }

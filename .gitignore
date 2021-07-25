@@ -1,8 +1,13 @@
+# Java output ignores
+*.class
+out/
+
 # MacOS files
 .DS_Store
 
 # Jetbrains environment files
 .idea/
+*.iml
 
 # Byte-compiled / optimized / DLL files
 __pycache__/

@@ -1,12 +1,21 @@
 package proxy_pattern;
 
 public class Client {
+
+  /**
+   * Demo function for the database toy example of the ProxyPattern
+   * @param args
+   */
   public static void main(String[] args) {
     runWithoutProxy();
     runWithProxy();
   }
 
+  /**
+   * Demo with direct access to the Service classes
+   */
   public static void runWithoutProxy() {
+
     System.out.println("Doing a database operation without a proxy: ----------");
     DatabaseService mongo = new MongoService();
     int query = 3245;
@@ -17,6 +26,9 @@ public class Client {
     System.out.println("-------------------------------");
   }
 
+  /**
+   * Demo with a SimpleProxy
+   */
   public static void runWithProxy() {
     System.out.println("Doing a database operation with a proxy: ----------");
     DatabaseService proxy = new SimpleProxy(new MongoService());
